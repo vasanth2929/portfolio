@@ -28,6 +28,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import ParticleCanvas from "@/components/ParticleCanvas";
+import { Link } from "react-router-dom";
 
 export default function Portfolio() {
   const [activeSection, setActiveSection] = useState("hero");
@@ -272,6 +273,11 @@ export default function Portfolio() {
                   </motion.button>
                 )
               )}
+              <Link to="/resume" target="_blank">
+                <Button variant="outline" size="lg" className="text-black">
+                  Resume
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
