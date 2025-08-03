@@ -11,7 +11,6 @@ import {
   ChevronDown,
   Star,
   Zap,
-  Target,
   ArrowUpRight,
   ChevronLeft,
   ChevronRight,
@@ -882,7 +881,7 @@ export default function Portfolio() {
                         value: "Coimbatore, India",
                         color: "from-orange-500 to-red-600",
                       },
-                    ].map((contact, index) => (
+                    ].map((contact) => (
                       <div
                         key={contact.label}
                         className="flex items-center gap-6"

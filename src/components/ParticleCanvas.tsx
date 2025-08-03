@@ -23,7 +23,7 @@ interface ParticleCanvasProps {
 
 export default function ParticleCanvas({ particleCount = 60, starCount = 30, orbCount = 3 }: ParticleCanvasProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
-  const animationRef = useRef<number>()
+  const animationRef = useRef<number>(null)
   const particlesRef = useRef<Particle[]>([])
 
   useEffect(() => {
