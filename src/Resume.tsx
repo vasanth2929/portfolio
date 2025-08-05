@@ -318,6 +318,7 @@ const ResumeDocument = () => (
             <Text style={styles.skill}>JavaScript</Text>
             <Text style={styles.skill}>Typescript</Text>
             <Text style={styles.skill}>React JS</Text>
+            <Text style={styles.skill}>Next.JS</Text>
             <Text style={styles.skill}>Storybook</Text>
             <Text style={styles.skill}>Node JS</Text>
             <Text style={styles.skill}>Nest JS</Text>
